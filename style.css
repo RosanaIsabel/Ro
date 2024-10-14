@@ -1,0 +1,36 @@
+h1 {
+    color: hotpink;
+}
+
+p {
+    color: hotpink;
+}
+
+img {
+    width: 15dvw;
+    border-radius: 50%;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+
+& a {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat; 
+}
+
+    & a[href*="instagram"] {
+        background-image: url(assets/icons/instagram.png);
+        width: 22px;
+        height: 22px;
+    }
+
+    
+    & a[href*="github"] {
+        background-image: url(assets/icons/github.png);
+        width: 22px;
+        height: 22px;
+    }
+}
